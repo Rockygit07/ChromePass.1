@@ -1,5 +1,5 @@
 # Define the folder path containing the files to encrypt 
-$folderPath = "D:\kali linux"
+$folderPath = "D:\kalilinux"
 
 # Set the password
 $password = "Redhat"
