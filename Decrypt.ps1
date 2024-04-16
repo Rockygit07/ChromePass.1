@@ -40,7 +40,7 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK) {
     Write-Output "Entered Password: $plaintextPassword"
 
     # Define the folder path containing the encrypted files
-    $folderPath = "D:\kali linux"
+    $folderPath = "D:\kalilinux"
 
     # Define decryption method
     $decryptionMethod = @{
